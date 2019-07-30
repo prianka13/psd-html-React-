@@ -1,0 +1,52 @@
+.footerwrapper{
+    background-color: black;
+}
+.footer_padding{
+    padding: 50px;
+}
+.footer_tittle{
+    color: #fcdb00;
+    text-align: center;
+}
+.footer_p{
+    color: white;
+    text-align: center;
+}
+.btn-primary{
+   background-color: #fcdb00 !important;
+   border-color: #fcdb00 !important;
+   color: black !important;
+   margin-bottom: 5px;
+}
+.form-control{
+    width: 500px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.input_field_button{
+    text-align: center;
+}
+.social_icons{
+    text-align: center;
+    
+}
+.social_icons img{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer_content{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}

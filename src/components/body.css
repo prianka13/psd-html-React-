@@ -1,0 +1,27 @@
+.body_tittle{
+    text-align: center;
+}
+.body_p{
+    text-align: center; 
+    padding: 10px;   
+}
+.features_content_body{
+    width: 100%;
+}
+.features_content_img{
+    width: 20%;
+    float: left;
+}
+.features_content_h5_p{
+    width: 80%;
+    float: right;
+}
+.tittle{
+    padding: 40px;
+}
+.features_content{
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}

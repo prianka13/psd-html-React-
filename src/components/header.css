@@ -1,0 +1,48 @@
+.header-wrapper{
+    background-color: #fcdb00;
+}
+.menu{
+    width: 100%;
+}
+.menu .menu_left_content{
+    width: 50%;
+    float: left;
+}
+.menu .menu_right_content{
+    width: 50%;
+    float: right;
+}
+.menu_right_content ul li a{
+    color: black;
+}
+.menu-body{
+    width: 100%;
+}
+.menu{
+    padding: 20px;
+}
+.menu-body{
+    padding: 20px;
+}
+.menu-body .menu-body_left .menu-body_left_header4{
+    padding: 5px;
+}
+.menu-body .menu-body_left .menu-body_left_header6{
+    padding: 5px;
+}
+.menu-body .menu-body_left .menu-body_left_p{
+    padding: 5px;
+}
+/* .menu-body .menu-body_left .download-icons{
+    padding-top: 5px;
+} */
+.menu-body .menu-body_left .download-icons ul li a img{
+    margin: 20px;
+}
+.menu-body_right{
+    float: right;;
+}
+.menu-body_left{
+    margin-top: 70px;
+}
+
