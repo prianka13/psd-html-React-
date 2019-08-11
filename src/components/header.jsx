@@ -10,28 +10,42 @@ class Header extends Component {
         return ( 
             <div className="header-wrapper">
                 <div className="container">
-                    <div className="menu">
+                <div className="menu">
                     <div className="row">
-                        <div class="col-md-6">
-                        <div className="menu_left_content">
-                            <h4>tinyone</h4>
+                        <div class="col-md-6 col-6">
+                            <div className="menu_left_content">
+                                <h4>tinyone</h4>
+                            </div>
                         </div>
-                        </div>
-                        <div className="col-md-6">
+                    <div className="col-md-6 col-6">
                         <div className="menu_right_content">
-                        <ul class="nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                        </ul>
+                            <div class="bar-icon">
+                                <a href="#">bars</a>
+                                <ul className="nav" id="bar-icon-list">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Features</a>
+                                    </li>
+                                    <li class="nav-item" id="support">
+                                        <a class="nav-link" href="#">Support</a>
+                                    </li>
+                                    <li class="nav-item" id="blog">
+                                        <a class="nav-link" href="#">Blog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="nav" id="menu-items">
+                                <li class="nav-item" id="features">
+                                    <a class="nav-link" href="#">Features</a>
+                                </li>
+                                <li class="nav-item" id="support">
+                                    <a class="nav-link" href="#">Support</a>
+                                </li>
+                                <li class="nav-item" id="blog">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                            </ul>
                         </div>
-                        </div>
+                    </div>
                     </div>
                     </div>
                 <div className="menu-body">

@@ -40,9 +40,22 @@
     margin: 20px;
 }
 .menu-body_right{
-    float: right;;
+    float: right;
 }
 .menu-body_left{
     margin-top: 70px;
 }
-
+.bar-icon{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+#menu-items{
+    display: none;
+}
+.bar-icon{
+    display: block;
+}
+.bar-icon{
+    text-align: center;
+}
+}
