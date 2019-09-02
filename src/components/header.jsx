@@ -6,6 +6,16 @@ import android from '../android.png';
 import windows from '../windows.png';
 
 class Header extends Component {
+    state = {
+        on: false,
+    }
+    handleHideShow = () =>{
+        console.log("test", this);
+        //this.setState
+        this.setState({
+            on: !this.state.on 
+        })
+    }
     render() { 
         return ( 
             <div className="header-wrapper">
@@ -20,18 +30,22 @@ class Header extends Component {
                     <div className="col-md-6 col-6">
                         <div className="menu_right_content">
                             <div class="bar-icon">
-                                <a href="#">bars</a>
-                                <ul className="nav" id="bar-icon-list">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item" id="support">
-                                        <a class="nav-link" href="#">Support</a>
-                                    </li>
-                                    <li class="nav-item" id="blog">
-                                        <a class="nav-link" href="#">Blog</a>
-                                    </li>
-                                </ul>
+                                <a href="#" onClick={this.handleHideShow}>bars</a>
+                                <div className="hide-show">
+                                    {this.state.on &&(
+                                         <ul className="nav flex-column" id="bar-icon-list">
+                                         <li class="nav-item">
+                                             <a class="nav-link" href="#">Features</a>
+                                         </li>
+                                         <li class="nav-item" id="support">
+                                             <a class="nav-link" href="#">Support</a>
+                                         </li>
+                                         <li class="nav-item" id="blog">
+                                             <a class="nav-link" href="#">Blog</a>
+                                         </li>
+                                     </ul>
+                                    )}
+                                 </div>   
                             </div>
                             <ul class="nav" id="menu-items">
                                 <li class="nav-item" id="features">

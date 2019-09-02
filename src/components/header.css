@@ -54,8 +54,10 @@
 }
 .bar-icon{
     display: block;
-}
-.bar-icon{
     text-align: center;
 }
+.hide-show{
+    display: none;
+}
+
 }
